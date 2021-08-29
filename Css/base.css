@@ -1,0 +1,11 @@
+:root{
+
+    --corBase: #090B0D;
+    --corContraste: #EC1D25;
+
+}
+
+
+body{
+    background-color:var(--corBase);
+}
