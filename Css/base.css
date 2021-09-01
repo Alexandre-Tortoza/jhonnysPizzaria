@@ -1,0 +1,52 @@
+:root{
+
+    --corBase: #090B0D;
+    --corContraste: #EC1D25;
+
+}
+
+
+body{
+    background-color:var(--corBase);
+}
+ header{
+    margin: 2rem 0rem;
+ }
+
+ header #logoPrincipal{
+     margin-bottom: 1rem;
+ }
+ nav{
+     margin-top: 2rem;
+ }
+
+
+
+div#alimentosComentarios >{
+    display: flex ;
+    align-items: center;
+}
+
+
+
+
+
+
+.comentario{
+    background-color: #fff;
+}
+
+ .comentario > h3 {
+    font-size: 2rem;
+}
+
+
+ .comentario p {
+    max-width: 30% ;
+}
+
+
+.blocos{
+    margin-top: 5em ;
+    margin-bottom: 5em ;
+}
