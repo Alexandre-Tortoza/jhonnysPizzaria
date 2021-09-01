@@ -1,9 +1,36 @@
-#headerLogoPrincipal{
-    margin: auto;
-    display:block;
-    max-width: 15em;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Pacifico&display=swap');
+
+:root{
+
+    --corBase: #090B0D;
+    --corContraste: #EC1D25;
+
 }
 
-img{
-    max-width: 30em;
+
+
+#logoPrincipal{
+    width:300px;
+    display:block;
+    margin:auto;
+}
+
+
+header h1{
+    text-align: center;
+    color: var(--corContraste);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
+
+  
+}
+
+header h1>span{
+    font-family: 'Libre Baskerville', serif;
+   
+}
+
+header nav div>img{
+    max-width:3rem;
 }

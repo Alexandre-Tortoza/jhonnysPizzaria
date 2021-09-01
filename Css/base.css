@@ -9,8 +9,39 @@
 body{
     background-color:var(--corBase);
 }
+ header{
+    margin: 2rem 0rem;
+ }
 
-header{
-    margin: 4em;
+ header #logoPrincipal{
+     margin-bottom: 1rem;
+ }
+ nav{
+     margin-top: 2rem;
+ }
+
+
+
+div#alimentosComentarios >{
+    display: flex ;
+    align-items: center;
+}
+
+
+
+
+
+
+.comentario{
+    background-color: #fff;
+}
+
+ .comentario > h3 {
+    font-size: 2rem;
+}
+
+
+ .comentario p {
+    max-width: 30% ;
 }
 
