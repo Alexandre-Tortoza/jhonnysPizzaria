@@ -34,3 +34,8 @@ header h1>span{
 header nav div>img{
     max-width:3rem;
 }
+
+
+.container .carousel-item > img{
+    max-width: 20em;    
+}
